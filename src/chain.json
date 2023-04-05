@@ -1,0 +1,29 @@
+[
+    {
+        "model": "chains.chain",
+        "pk": 245022926,
+        "fields": {
+            "relevance": 100,
+            "name": "NEON",
+            "short_name": "neon",
+            "description": "NEON EVM DEVNET",
+            "l2": true,
+            "rpc_authentication": "NO_AUTHENTICATION",
+            "rpc_uri": "http://devnet.neonevm.org",
+            "safe_apps_rpc_authentication": "NO_AUTHENTICATION",
+            "safe_apps_rpc_uri": "http://devnet.neonevm.org",
+            "block_explorer_uri_address_template": "https://neonscan.org/address/{{address}}",
+            "block_explorer_uri_tx_hash_template": "https://neonscan.org/tx/{{txHash}}",
+            "currency_name": "NEON",
+            "currency_symbol": "NEON",
+            "currency_decimals": 18,
+            "currency_logo_uri": "chains/245022926/currency_logo.png",
+            "transaction_service_uri": "http://nginx:8000/txs",
+            "vpc_transaction_service_uri": "http://nginx:8000/txs",
+            "theme_text_color": "#ffffff",
+            "theme_background_color": "#000000",
+            "ens_registry_address": null,
+            "recommended_master_copy_version": "1.3.0+L2"
+        }
+    }
+]
